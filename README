@@ -1,0 +1,6 @@
+How to compile:
+
+arm-linux-gnueabi-gcc -static uname.c -o uname
+
+Please use the "-static" option or it won't work.
+Android use a customized (and optimized) version of the libc, called Bionic.
